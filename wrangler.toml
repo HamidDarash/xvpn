@@ -1,0 +1,8 @@
+name = "xvpn"
+main = "src/worker.ts"
+compatibility_date = "2024-05-29"
+compatibility_flags = ["nodejs_compat"]
+
+kv_namespaces = [
+  { binding = "settings", id = "cd7f3a7592a242279bd3e028eb198dee" }
+]
